@@ -1,0 +1,18 @@
+[2024-10-11 23:43:10.920][PID:11012][TID:22468][INFO][main.cpp][func:  12]enter
+[2024-10-11 23:43:10.928][PID:11012][TID:20320][INFO][main.cpp][func:  12]enter
+[2024-10-11 23:43:10.935][PID:11012][TID:12692][INFO][main.cpp][func:  12]enter
+[2024-10-11 23:43:10.941][PID:11012][TID:23660][INFO][main.cpp][func:  12]enter
+[2024-10-11 23:43:10.947][PID:11012][TID:25608][INFO][main.cpp][func:  12]enter
+[2024-10-11 23:43:10.953][PID:11012][TID:17960][INFO][main.cpp][func:  12]enter
+[2024-10-11 23:43:10.989][PID:11012][TID:20320][INFO][main.cpp][func:  15]g_num = 1
+[2024-10-11 23:43:10.990][PID:11012][TID:20320][INFO][main.cpp][func:  17]exit
+[2024-10-11 23:43:10.991][PID:11012][TID:22468][INFO][main.cpp][func:  15]g_num = 2
+[2024-10-11 23:43:10.991][PID:11012][TID:22468][INFO][main.cpp][func:  17]exit
+[2024-10-11 23:43:11.004][PID:11012][TID:12692][INFO][main.cpp][func:  15]g_num = 3
+[2024-10-11 23:43:11.004][PID:11012][TID:12692][INFO][main.cpp][func:  17]exit
+[2024-10-11 23:43:11.004][PID:11012][TID:25608][INFO][main.cpp][func:  15]g_num = 4
+[2024-10-11 23:43:11.005][PID:11012][TID:25608][INFO][main.cpp][func:  17]exit
+[2024-10-11 23:43:11.005][PID:11012][TID:23660][INFO][main.cpp][func:  15]g_num = 5
+[2024-10-11 23:43:11.005][PID:11012][TID:23660][INFO][main.cpp][func:  17]exit
+[2024-10-11 23:43:11.019][PID:11012][TID:17960][INFO][main.cpp][func:  15]g_num = 6
+[2024-10-11 23:43:11.019][PID:11012][TID:17960][INFO][main.cpp][func:  17]exit
