@@ -125,6 +125,7 @@ static int printfToBuffer(char* buffer, int size, char* fmt, ...) {
 	return ret;
 }
 
+//获取系统时间
 static int getSystemTime(char* timeBuffer)
 {
 	if (!timeBuffer)
@@ -207,6 +208,7 @@ int MYLOG::writeLog(
 
 void MYLOG::outputToTarget()
 {
+	//写入文件
 	if (MYLOG::getInstance()->getLogTarget() & LOG_TARGET_FILE)
 	{
 		SetFilePointer(mFileHandle, 0, NULL, FILE_END);
@@ -214,6 +216,7 @@ void MYLOG::outputToTarget()
 		WriteFile(mFileHandle, logBuffer.c_str(), logBuffer.length(), &dwBytesWritten, NULL);
 		FlushFileBuffers(mFileHandle);
 	}
+	//直接输出
 	if (MYLOG::getInstance()->getLogTarget() & LOG_TARGET_CONSOLE)
 	{
 		printf("%s", logBuffer.c_str());

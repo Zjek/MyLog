@@ -22,6 +22,8 @@ int main()
 {
 	MYLOG* logger = MYLOG::getInstance();
 	HANDLE handle[THREAD_NUM];
+	logger->setLogLevel(LOG_LEVEL_DEBUG);
+	logger->setLogTarget(LOG_TARGET_CONSOLE);
 
 	int threadNum = 0;
 	while (threadNum < THREAD_NUM)
